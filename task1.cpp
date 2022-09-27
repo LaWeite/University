@@ -1,8 +1,10 @@
+/* первое задание не получилось - выдает ошибку исключение не обработано */
+
 #include <iostream>
 
 using namespace std;
 
-/*���������� ��������*/
+/*ñîðòèðîâêà âñòàâêîé*/
  void sort(int* arr, int count)
 {
     int el = 0;
@@ -20,7 +22,7 @@ using namespace std;
     }
 }
 
-/*qsort ���������*/
+/*qsort ñîðòðîâêà*/
 void qSortForTheFirst(int* arr, int low, int high)
 {
     int i = low;
